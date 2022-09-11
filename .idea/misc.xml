@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/drawable/circlebg.xml" value="0.1" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/drawable/submitbtn.xml" value="0.141" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout-v31/p_activity_main.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/activity_my_appointments.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/d_activity_dconfirm_or_reject.xml" value="0.13768115942028986" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/d_activity_dmain.xml" value="0.1796875" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/d_activity_docyetconfirmapt.xml" value="0.15670289855072464" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/d_activity_dprofile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/d_activity_dprofile1.xml" value="0.129981884057971" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/d_activity_dsign_up.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/d_popupconfirm.xml" value="0.1331521739130435" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/p_activity_datepicker.xml" value="0.22" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/p_activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/p_activity_make_appt.xml" value="0.15653298835705046" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/p_activity_pprofile.xml" value="0.1796875" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/p_activity_pprofile1.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/p_activity_psignup.xml" value="0.22" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/pat_profile.xml" value="0.1331521739130435" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/popupwind.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/rowitem.xml" value="0.22" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/rowitem2.xml" value="0.17" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/rowitem4.xml" value="0.11413043478260869" />
+        <entry key="..\:/Users/aksha/AndroidStudioProjects/MAD_PROJECT1/app/src/main/res/layout/rowwrite3.xml" value="0.1431159420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

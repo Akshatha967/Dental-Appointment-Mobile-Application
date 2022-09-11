@@ -1,0 +1,100 @@
+package com.example.mad_project1;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Patterns;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.Toast;
+
+public class d_mainActivity extends AppCompatActivity implements View.OnClickListener{
+
+    EditText Email, Password;
+    ProgressBar progressBar;
+    DbManager db;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.d_activity_dmain);
+
+        findViewById(R.id.dlogin).setOnClickListener(this);// siggn up btn
+        findViewById(R.id.dSignUptextvw).setOnClickListener(this);// click here btn
+
+        Email = (EditText) findViewById(R.id.demail);
+        Password = (EditText) findViewById(R.id.dpwd);
+        progressBar = findViewById(R.id.progressbar);
+    }
+
+    private void LoginUser() {
+
+        String email = Email.getText().toString().trim();
+        String password = Password.getText().toString().trim();
+
+        if (email.isEmpty()) {
+            Email.setError("Email is required.");
+            Email.requestFocus();
+            return;
+        }
+
+        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            Email.setError("Please enter a valid email");
+            Email.requestFocus();
+            return;
+        }
+
+        if (password.isEmpty()) {
+            Password.setError("Password is required.");
+            Password.requestFocus();
+            return;
+        }
+
+        if (password.length() < 6) {
+            Password.setError("Password minimum length should be 6 characters.");
+            Password.requestFocus();
+            return;
+        }
+
+        progressBar.setVisibility(View.VISIBLE);
+        db = new DbManager(this);
+        Boolean res = db.signIndetd(email,password);
+        if(res == true)
+        {
+            Toast.makeText(this, "success", Toast.LENGTH_SHORT).show();
+            Bundle bd = new Bundle();
+            bd.putString("doc_email",email);
+            Intent it = new Intent(this,d_profile.class);
+            it.putExtras(bd);
+            startActivity(it);
+        }
+        else
+        {
+            Toast.makeText(this, "invalid ", Toast.LENGTH_SHORT).show();
+        }
+
+
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+
+            case R.id.dSignUptextvw:
+                finish();
+                startActivity(new Intent(this, d_signUp.class));
+
+                break;
+
+            case R.id.dlogin:
+                LoginUser();
+
+                break;
+        }
+    }
+
+
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:layout_gravity="center"
+    android:background="@drawable/i7"
+    android:orientation="vertical"
+
+    android:padding="5dp"
+    tools:context=".p_profile1">
+
+
+
+
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@drawable/circlebg"
+            android:gravity="center"
+            android:text="X"
+            android:id="@+id/close"
+            android:textColor="@color/black"
+
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:background="#7C61DD"
+            android:hint="YOUR NAME"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/pname"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#7C61DD"
+            android:hint="YOUR EMAIL"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/pemail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#7C61DD"
+            android:hint="YOUR PHONE"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/pphone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#7C61DD"
+            android:hint="YOUR GENDER"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/pgender"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#7C61DD"
+            android:hint="YOUR AGE"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/page"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#7C61DD"
+            android:hint="YOUR LOCATION"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/plocation"/>
+
+        <Button
+            android:id="@+id/submmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/submitbtn"
+            android:text="SUBMIT"
+            android:textColor="#7C61DD" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+

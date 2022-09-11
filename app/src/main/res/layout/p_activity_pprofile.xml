@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/i12"
+    tools:context=".p_profile"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="66dp"
+
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:text="WELCOME"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/user_nametv"
+            android:layout_width="244dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="5dp"
+            android:text="USER_NAME"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/prof_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/i8"
+            android:gravity="top"
+            android:text="PROFILE"
+            android:textColor="#7C61DD"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/makeappt"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:background="#FFE1A2CA"
+        android:text="MAKE APPOINTMENT" />
+
+    <Button
+        android:id="@+id/p_myAppt"
+        android:layout_width="193dp"
+        android:textColor="@color/white"
+        android:background="#FFE1A2CA"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:text="MY APPOINTMENT" />
+
+    <Button
+        android:id="@+id/p_rejAppt"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="60dp"
+        android:background="#FFE1A2CA"
+        android:text="REJECTED APPOINTMENT" />
+
+    <Button
+        android:id="@+id/p_pendingAppt"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:background="#FFE1A2CA"
+        android:text="PENDING APPOINTMENTs" />
+
+</LinearLayout>
